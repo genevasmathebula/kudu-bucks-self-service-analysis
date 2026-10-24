@@ -31,29 +31,29 @@ Functional requirements describe what the proposed solution should do.
 
 | ID | Requirement |
 |---|---|
-| FR01 | The system should allow a student to access a digital top-up service. |
+| FR01 | The system should allow a student to access the digital top-up service. |
 | FR02 | The system should allow a student to enter the amount they want to add to their Kudu Bucks balance. |
 | FR03 | The system should allow the student to initiate a payment using a supported digital payment method. |
 | FR04 | The system should display whether the payment was successful or unsuccessful. |
-| FR05 | The system should display the updated Kudu Bucks balance after a successful top-up, once the transaction has been confirmed. |
-| FR06 | The system should provide clear feedback when a top-up fails and explain what the student can do next. |
-
-These are proposed requirements, not confirmed capabilities of the existing Kudu Bucks system.
+| FR05 | The system should update or reflect the Kudu Bucks balance after a successful top-up has been confirmed. |
+| FR06 | The system should provide clear guidance when a top-up fails and explain what the student can do next. |
+| FR07 | The system should authenticate the student and associate the top-up with the correct Kudu Bucks account before processing the transaction. |
 
 ## 6. Non-Functional Requirements
 
 Non-functional requirements describe qualities the solution should have.
 
-- **Security:** Student and payment information should be protected.
-- **Usability:** The top-up process should be simple to understand and navigate.
-- **Reliability:** Students should receive accurate transaction status information.
-- **Privacy:** Personal information should only be collected and used where necessary.
-- **Accessibility:** The service should be usable on commonly available mobile devices.
+- **NFR01 – Security:** Student and payment information should be protected against unauthorised access.
+- **NFR02 – Usability:** The top-up process should be simple to understand and navigate.
+- **NFR03 – Reliability:** Students should receive accurate transaction status information, and successful payments should be reflected correctly.
+- **NFR04 – Privacy:** Personal information should only be collected and used where necessary.
+- **NFR05 – Accessibility:** The service should be usable on commonly available mobile devices.
 
 ## 7. Constraints and Assumptions
 
 - The existing Kudu Bucks system may have technical or institutional restrictions.
 - Digital payment integration has not been confirmed.
+- The authentication method and integration with any existing university identity service have not been confirmed.
 - The solution would require appropriate security, privacy and payment controls.
 - This is an independent portfolio concept and is not an official Wits project.
 - No real payments or student data will be used in the demonstration.
