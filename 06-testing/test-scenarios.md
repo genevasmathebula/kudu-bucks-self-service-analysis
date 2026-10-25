@@ -34,6 +34,8 @@ This is a conceptual portfolio project. The scenarios have not been executed aga
 | TC05 | Complete a payment successfully. | The system confirms the transaction and updates the correct Kudu Bucks account balance once. | High |
 | TC06 | Simulate a failed payment. | The system displays an appropriate failure message and does not increase the balance for the failed transaction. | High |
 | TC07 | Simulate a payment with an unknown or pending outcome. | The system displays the pending status and checks the original transaction before allowing another payment attempt. | High |
+| TC08 | Attempt to continue after authentication fails. | The system prevents access to the protected top-up process and displays an appropriate message. | High |
+
 
 ## Testing Notes
 
