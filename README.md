@@ -1,91 +1,92 @@
-# Kudu Bucks Self-Service Top-Up Solution
+# Kudu Bucks Self-Service Top-Up: Business Analysis Portfolio Project
 
 ## Project Overview
 
-This is an independent Business Analysis portfolio project focused on exploring a digital self-service solution for topping up Kudu Bucks accounts at the University of the Witwatersrand (Wits).
+This independent Business Analysis portfolio project explores a proposed self-service digital top-up solution for Wits Kudu Bucks, the system students use to pay for printing.
 
-The project is inspired by my personal experience with cash-loading machines being unavailable when I need to add funds to my Kudu Bucks account for printing.
+The project investigates the challenges of relying on cash-loading machines and explores how students could potentially top up their accounts digitally using a mobile device.
 
-I will investigate the current top-up experience, define user needs and business requirements, and design a proposed mobile solution that allows students to top up their accounts digitally.
+**Project type:** Independent Business Analysis case study  
+**Industry:** Higher Education / Digital Payments  
+**Role:** Business Analyst  
+**Status:** Requirements analysis and solution design documentation
 
-## Problem Statement
+## 1. Problem Statement
 
-Students who rely on physical Kudu Bucks cash-loading machines may experience difficulties adding funds when the machines are unavailable or not functioning.
+Students who need to print may experience difficulties when cash-loading machines are unavailable or not functioning. This can delay printing and leave students looking for alternative ways to complete their tasks.
 
-Based on my personal experience, this presents an opportunity to explore an alternative way for students to top up their accounts conveniently.
+This project explores whether a digital self-service top-up process could provide a more convenient alternative to cash-based top-ups.
 
-The frequency and wider impact of this problem have not yet been formally established. The project will document the initial problem, investigate the existing process using available information, and identify requirements for a potential digital solution.
+The problem and proposed solution have not been formally validated through stakeholder interviews or university research.
 
-## Project Objectives
+## 2. Proposed Solution
 
-- Define the problem and the needs of students who use Kudu Bucks for printing.
-- Document the existing top-up process based on available information.
-- Identify user needs, business requirements and system constraints.
-- Develop and prioritise functional and non-functional requirements.
-- Design a proposed self-service digital top-up process.
-- Create mobile app wireframes and a clickable prototype.
-- Develop user stories, acceptance criteria and test cases.
-- Evaluate the proposed solution against defined usability, reliability and security considerations.
+The proposed solution is a mobile-friendly self-service process that would allow students to:
 
-## Proposed Solution
+- Access the top-up service securely.
+- Enter and review a top-up amount.
+- Initiate a supported digital payment.
+- Receive clear payment status updates.
+- Have their Kudu Bucks balance updated after a successful, confirmed transaction.
+- Receive guidance when a payment fails or remains pending.
 
-The proposed solution is a mobile-friendly self-service experience through which students could:
+The solution is conceptual. No application, payment processing functionality or integration with the existing Kudu Bucks system has been developed.
 
-- View their available Kudu Bucks balance.
-- Select an amount to top up.
-- Choose an available electronic payment method.
-- Review and confirm a transaction.
-- Receive confirmation of the transaction and updated balance.
+## 3. Business Analysis Artefacts
 
-These are proposed capabilities, not confirmed features of an existing or approved Wits system. Actual payment processing and integration with Kudu Bucks would depend on technical feasibility and the necessary authorisation.
+The project includes the following documentation:
 
-## Business Analysis Approach
+| Artefact | Purpose |
+|---|---|
+| Project Scope | Defines the project objectives, boundaries and limitations. |
+| Problem Analysis | Describes the problem and the opportunity for improvement. |
+| Current-State Process | Documents the existing cash-based top-up process and possible outcomes. |
+| Business Requirements | Defines proposed functional and non-functional requirements. |
+| Requirements Prioritisation | Applies the MoSCoW technique to prioritise proposed requirements. |
+| User Stories and Acceptance Criteria | Translates requirements into user-focused needs and testable conditions. |
+| Future-State Process | Maps the proposed digital top-up process, including successful, failed and pending payments. |
+| Test Scenarios | Identifies scenarios for validating the proposed solution's expected behaviour. |
+| Requirements Traceability Matrix | Links requirements to user stories and test scenarios. |
+| Stakeholder Analysis | Identifies potential stakeholders, their interests and proposed engagement approaches. |
+| Risks, Assumptions and Dependencies | Documents potential risks, key assumptions, dependencies and validation needs. |
 
-The project will follow an iterative Business Analysis process:
+## 4. Business Analysis Approach
 
-1. **Problem Definition:** Document the problem based on personal experience and available evidence.
-2. **Current-State Analysis:** Understand and map the existing top-up process.
-3. **Requirements Analysis:** Identify user needs, business rules, requirements and constraints.
-4. **Solution Design:** Evaluate the proposed approach and design the future-state process.
-5. **Prototyping:** Create wireframes and a clickable mobile prototype.
-6. **Testing:** Define test scenarios and acceptance criteria for the proposed solution.
-7. **Evaluation:** Assess the proposed design against the project objectives and identify limitations and opportunities for improvement.
+The project follows a structured approach to analysing a business problem and documenting a proposed solution:
 
-## Planned Deliverables
+1. **Discovery:** Define the problem, objectives and project scope.
+2. **Process analysis:** Document the current process and identify opportunities for improvement.
+3. **Requirements analysis:** Define and prioritise business, functional and non-functional requirements.
+4. **Solution design:** Map the proposed future-state process.
+5. **Validation planning:** Develop acceptance criteria, test scenarios and requirements traceability.
+6. **Risk analysis:** Identify assumptions, dependencies and potential implementation risks.
 
-- Problem statement and project scope
-- Research findings and documented assumptions
-- Current-state and future-state process diagrams
-- Requirements register and business rules
+## 5. Skills Demonstrated
+
+- Business problem analysis
+- Business and functional requirements documentation
+- Requirements prioritisation using MoSCoW
+- Process mapping and current-state/future-state analysis
 - User stories and acceptance criteria
-- Solution options assessment
-- Mobile wireframes and clickable prototype
-- Test cases and user acceptance testing plan
-- Success metrics and project reflections
+- Stakeholder identification and analysis
+- Test scenario development
+- Requirements traceability
+- Risk, assumption and dependency analysis
 
-## Tools
+## 6. Assumptions and Limitations
 
-- **GitHub:** Project documentation and version control
-- **Markdown:** Written documentation
-- **diagrams.net (Draw.io):** Process and system diagrams
-- **Figma:** Wireframes and clickable prototype
-- **Excel or CSV:** Requirements and test case registers
+This project is an independent portfolio exercise and is not affiliated with or endorsed by the University of the Witwatersrand.
 
-## Project Status
+The analysis is based on a conceptual problem scenario. Stakeholder needs, technical feasibility, payment-provider availability, system integration capabilities and university approval have not been confirmed.
 
-**Current phase:** Initial problem definition and project scoping.
+No actual student data, financial transactions or live system integrations were used.
 
-The project has not yet completed its research, requirements analysis, solution design or prototyping. These deliverables will be developed and updated as the project progresses.
+## 7. Potential Next Steps
 
-## Scope and Limitations
+If the proposal were taken forward, the next steps would include:
 
-This project focuses on Business Analysis, solution design and prototyping. It does not currently include a live payment service or integration with Wits systems.
-
-The project is an independent portfolio exercise, not an official Wits initiative or an approved proposal. It does not assume access to internal university systems, confidential information or real student account data.
-
-Any proposed integration, payment functionality or changes to the existing service would require further feasibility assessment and appropriate authorisation.
-
-## Portfolio Purpose
-
-This project demonstrates the application of Business Analysis techniques to a practical problem, including problem definition, process analysis, requirements elicitation, solution design, prototyping and testing.
-
+- Validate the problem and user needs with students and relevant stakeholders.
+- Confirm the existing Kudu Bucks system's technical capabilities and integration options.
+- Assess payment security, privacy and reconciliation requirements.
+- Refine requirements based on stakeholder feedback.
+- Evaluate feasibility before proceeding to development and implementation.
