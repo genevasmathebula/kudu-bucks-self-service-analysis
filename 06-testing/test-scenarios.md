@@ -21,3 +21,22 @@ This is a conceptual portfolio project. The scenarios have not been executed aga
 - The test scenarios are proposed and have not been executed.
 - The actual payment provider and Kudu Bucks integration have not been confirmed.
 - These scenarios would need to be reviewed and expanded with relevant stakeholders before real system testing.
+
+
+## Detailed Test Cases
+
+| Test ID | Test Data / Action | Expected Result | Priority |
+|---|---|---|---|
+| TC01 | Attempt to access the service without authenticating. | The system prevents access to account-specific information and prompts the student to authenticate. | High |
+| TC02 | Enter a valid positive top-up amount within the supported limits. | The system accepts the amount and displays it for review before payment. | High |
+| TC03 | Enter an amount of R0. | The system rejects the amount and explains that a valid amount is required. | High |
+| TC04 | Enter a negative top-up amount. | The system rejects the amount and does not initiate payment. | High |
+| TC05 | Complete a payment successfully. | The system confirms the transaction and updates the correct Kudu Bucks account balance once. | High |
+| TC06 | Simulate a failed payment. | The system displays an appropriate failure message and does not increase the balance for the failed transaction. | High |
+| TC07 | Simulate a payment with an unknown or pending outcome. | The system displays the pending status and checks the original transaction before allowing another payment attempt. | High |
+
+## Testing Notes
+
+- These are proposed test cases, not executed tests.
+- Supported top-up limits, authentication rules and payment-status handling must be confirmed with stakeholders.
+- Actual execution would require an appropriate test environment and test payment integration.
